@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres
+    container_name: pg-docker
+    environment:
+      POSTGRES_DB: "tech_challenge_db"
+      POSTGRES_USER: "dbadmin"
+      POSTGRES_PASSWORD: "postgres"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - 5432:5432
