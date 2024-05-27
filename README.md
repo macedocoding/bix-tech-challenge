@@ -51,7 +51,7 @@ Press Ctrl(or command)+Shift+M, right click on "Relational Database Connection" 
 <br />
 <br />
 <br />
-Finnaly, click on "Data Orchestration" and execute tech_challenge_worlflow.hwf by clicking on the triangle-shaped button.
+Finally, click on "Data Orchestration" and execute tech_challenge_worlflow.hwf by clicking on the triangle-shaped button.
 
 ![Workflow ready to be executed](./images/button.png)
 <br />
